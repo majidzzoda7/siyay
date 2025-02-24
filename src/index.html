@@ -7,12 +7,19 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body class="m-0">
-    <div class="w-[90%] mx-auto flex gap-[60px] justify-between">
+    <div class="w-[90%] mx-auto flex lg:gap-[60px] justify-between">
       <img src="./1.png" alt="" />
-      <p>Качественные детали и узлы <br />для сельскохозяйственной техники</p>
-      <img src="./2.png" alt="" />
-      <img src="./3.png" alt="" />
-      <img class="w-[60px] h-[60px]" src="./4.png" alt="" />
+      <p class="hidden lg:block">
+        Качественные детали и узлы <br />для сельскохозяйственной техники
+      </p>
+      <img class="hidden lg:block" src="./2.png" alt="" />
+      <img class="hidden lg:block" src="./3.png" alt="" />
+      <img
+        class="hidden lg:block"
+        class="w-[60px] h-[60px]"
+        src="./4.png"
+        alt=""
+      />
       <button
         class="w-[170px] h-[50px] rounded-[30px] mt-[10px] text-[white] bg-[#39B36E]"
       >
@@ -25,7 +32,7 @@
       </button>
     </div>
     <div class="w-[90%] mx-auto flex gap-[60px] mt-[70px] justify-between">
-      <ul class="flex ga-[30px] text-[30px] gap-[60px]">
+      <ul class="hidden lg:flex lg:ga-[30px] lg:text-[30px] lg:gap-[60px]">
         <li class="text-[#36895F] font-bold">Главная</li>
         <li>Каталог</li>
         <li>О нас</li>
@@ -36,7 +43,7 @@
       <input
         type="text"
         placeholder="поиск по каталогу"
-        class="border pl-[30px] w-[300px] rounded-[20px] bg-[#F3F3F3]"
+        class="border w-[100%] pl-[30px] lg:w-[300px] rounded-[20px] bg-[#F3F3F3]"
       />
     </div>
     <div class="w-[90%] m-auto mt-[20px]">
@@ -46,28 +53,28 @@
     <p class="text-center text-[20px]">
       Небольшое описание блока <br />размеров в две строки
     </p>
-    <div class="w-[90%] mt-[100px] mx-[auto] flex justify-between">
-      <div class="w-[32%] h-[300px] p-[30px] bg-[#00552F] rounded-[30px]">
+    <div class="w-[90%] mt-[100px] mx-[auto] lg:flex justify-between">
+      <div class="lg:w-[32%] h-[300px] p-[30px] bg-[#00552F] rounded-[30px]">
         <p class="text-[30px] text-[white] font-bold">
           Свеклоуборочная <br />техника
         </p>
-        <img class="ml-[150px] -mt-[30px]" src="./7.png" alt="" />
+        <img class="lg:ml-[150px] -mt-[30px]" src="./7.png" alt="" />
       </div>
       <div
-        class="w-[32%] h-[300px] p-[30px] shadow-2xl shadow-[black] rounded-[30px]"
+        class="lg:w-[32%] h-[300px] p-[30px] mt-[60px] shadow-2xl shadow-[black] rounded-[30px]"
       >
         <p class="text-[30px] text-[#00552F] font-bold">
           Картофелеуборочная <br />техника
         </p>
-        <img class="ml-[150px] -mt-[30px]" src="./7.png" alt="" />
+        <img class="lg:ml-[150px] -mt-[30px]" src="./7.png" alt="" />
       </div>
       <div
-        class="w-[32%] h-[300px] p-[30px] shadow-2xl shadow-[black] rounded-[30px]"
+        class="lg:w-[32%] h-[300px] mt-[60px] p-[30px] shadow-2xl shadow-[black] rounded-[30px]"
       >
         <p class="text-[30px] text-[#00552F] font-bold">
           Транспортеры <br />MEDO
         </p>
-        <img class="ml-[150px] -mt-[30px]" src="./8.png" alt="" />
+        <img class="lg:ml-[150px] -mt-[30px]" src="./8.png" alt="" />
       </div>
     </div>
     <div class="flex justify-center mt-[70px]">
@@ -96,59 +103,65 @@
         заклёпок и замков.
       </p>
     </div>
-     <div class="flex justify-center mt-[100px]">
-    <img src="./9.png" alt="">
-  </div>
-  <div class="flex justify-between">
-    <img class="w-[500px]" src="./10.png" alt="">
-    <img class="w-[500px]" src="./11.png" alt="">
-    <img class="w-[500px]" src="./12.png" alt="">
-  </div>
-  <div class="mt-[100px] w-[100%] h-[500px] bg-[#EFEFEF] p-[40px]">
-    <img src="./13.png" alt="">
-    <div class="w-[100%] flex justify-between">
-      <ul class="text-[20px] mt-[50px]">
-        <li class="font-bold">Информация</li>
-        <li>О нас</li>
-        <li>Партнерам</li>
-        <li>Карьера</li>
-        <li>Контакты</li>
-      </ul>
-      <ul class="text-[20px]">
-        <li class="font-bold">Каталог</li>
-        <li>Свеклоуборочная <br>техника</li>
-        <li>Картофелеуборочная <br>техника
-        </li>
-        <li>Транспортеры MEDO</li>
-        <li>Комплектующие MEDO</li>
-      </ul>
-      <ul class="text-[20px]">
-        <li class="font-bold">Блог</li>
-        <li>Новости</li>
-        <li>События</li>
-      </ul>
-      <ul>
-        <li class="font-bold">Адрес</li>
-        <li>юридический и фактический:</li>
-        <li class="font-bold">117638, Россия, г. Москва, <br>ул. Криворожская, д. 6А, стр. 2, <br>пом. 236</li>
-        <li>адрес производства:</li>
-        <li class="font-bold">г. Брянск, Московский проезд, д10а</li>
-      </ul>
-      <div>
-        <ul>
-          <li class="font-bold">Контакты</li>
-          <li>звонок бесплатный</li>
-          <li class="font-bold">8 800 505 72 32</li>
-          <li>электронная почта</li>
-          <li class="font-bold">info@kd-grupp.com</li>
+    <div class="flex justify-center mt-[100px]">
+      <img src="./9.png" alt="" />
+    </div>
+    <div class="lg:flex justify-between">
+      <img class="mt-[60px]" src="./10.png" alt="" />
+      <img class="mt-[60px]" src="./11.png" alt="" />
+      <img class="mt-[60px]" src="./12.png" alt="" />
+    </div>
+    <div class="mt-[100px] w-[100%] h-[100%] bg-[#EFEFEF] p-[40px]">
+      <img src="./13.png" alt="" />
+      <div class="w-[100%] lg:flex justify-between">
+        <ul class="text-[20px] mt-[60px]">
+          <li class="font-bold">Информация</li>
+          <li>О нас</li>
+          <li>Партнерам</li>
+          <li>Карьера</li>
+          <li>Контакты</li>
         </ul>
-        <button class="w-[200px] h-[50px] border border-[#00552F] text-[#36895F] mt-[30px] rounded-[30px] font-bold">написать нам</button>
+        <ul class="text-[20px] mt-[60px]">
+          <li class="font-bold">Каталог</li>
+          <li>Свеклоуборочная <br />техника</li>
+          <li>Картофелеуборочная <br />техника</li>
+          <li>Транспортеры MEDO</li>
+          <li>Комплектующие MEDO</li>
+        </ul>
+        <ul class="text-[20px] mt-[60px]">
+          <li class="font-bold">Блог</li>
+          <li>Новости</li>
+          <li>События</li>
+        </ul>
+        <ul>
+          <li class="font-bold">Адрес</li>
+          <li>юридический и фактический:</li>
+          <li class="font-bold">
+            117638, Россия, г. Москва, <br />ул. Криворожская, д. 6А, стр. 2,
+            <br />пом. 236
+          </li>
+          <li>адрес производства:</li>
+          <li class="font-bold">г. Брянск, Московский проезд, д10а</li>
+        </ul>
+        <div>
+          <ul class="mt-[60px]">
+            <li class="font-bold">Контакты</li>
+            <li>звонок бесплатный</li>
+            <li class="font-bold">8 800 505 72 32</li>
+            <li>электронная почта</li>
+            <li class="font-bold">info@kd-grupp.com</li>
+          </ul>
+          <button
+            class="w-[200px] h-[50px] border border-[#00552F] text-[#36895F] mt-[30px] rounded-[30px] font-bold"
+          >
+            написать нам
+          </button>
+        </div>
+      </div>
+      <div class="mt-[90px] text-[22px] mx-auto flex justify-between">
+        <p>© 2020 ООО «КД-Групп». Все права защищены</p>
+        <p>Разработка и продвижение SilverDuck</p>
       </div>
     </div>
-    <div class="mt-[90px] text-[22px] mx-auto flex justify-between">
-      <p>© 2020 ООО «КД-Групп». Все права защищены</p>
-      <p>Разработка и продвижение SilverDuck</p>
-    </div>
-  </div>
   </body>
 </html>
